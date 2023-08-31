@@ -1,0 +1,88 @@
+body {
+    background-color:#EEE;
+    font-family: Arial, Helvetica, sans-serif;
+    text-justify: newspaper;
+    margin: 0px;
+    line-height: 1.6em;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.header-div{
+    min-height: 70px;
+    background-color: #252B48;
+}
+
+.header h1{
+    padding: 10px;
+    color: white;
+}
+
+.nav-div{
+    background-color: #9A3B3B;
+    min-height: 50px;
+    border-color: #9A3B3B;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.nav-list {
+    list-style: none;
+    margin-left: 10px;
+}
+.nav-list a {
+    color: white;
+    text-decoration: none;
+}
+.nav-list a :hover{
+    color: yellow;
+}
+
+.nav-list li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.blog {
+    border-left: 5px #900C3F solid;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.payment-methods {
+    background-color: #252B48;
+    color: white;
+    padding: 10px;
+    min-height: 500px;
+    overflow: auto;
+}
+
+.visa {
+    float: left;
+    padding: 10px;
+    border: 2px white solid;
+    line-height: 1.6em;
+}
+
+.paypal {
+    /* float: left; */
+    padding: 10px;
+    border: 2px white solid;
+}
+
+.payoneer {
+    /* float: left; */
+    padding: 10px;
+    border: 2px white solid;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    padding: 20px;
+}
