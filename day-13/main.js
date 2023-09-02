@@ -47,10 +47,21 @@ user3.sayHello = () => {
 console.log(user3);
 console.log(user3.sayHello());
 
-// document.getElementById("click-me").onclick = () => {
-//     console.log(this);
+// window.onload = () => {
+//     document.getElementById("click-me").onclick = () => {
+//         console.log(this);
+//     }
+//     let div = document.getElementById("mydiv");
+//     console.log(div);
 // }
 
 // document.querySelectorAll("button").onclick = ()=> {
 //     console.log(this);
 // }
+
+document.getElementById("click-me").onclick = () => {
+    console.log(this);
+}
+let div = document.getElementById("mydiv");
+console.log(div);
+
